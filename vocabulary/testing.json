@@ -1,0 +1,82 @@
+[
+  {
+    "name": "hola",
+    "trans": ["interj. hello; hi; hey"]
+  },
+  {
+    "name": "adiós",
+    "trans": ["interj. goodbye; farewell"]
+  },
+  {
+    "name": "por favor",
+    "trans": ["phrase. please"]
+  },
+  {
+    "name": "gracias",
+    "trans": ["interj. thank you; thanks"]
+  },
+  {
+    "name": "lo siento",
+    "trans": ["phrase. sorry; I’m sorry; excuse me"]
+  },
+  {
+    "name": "sí",
+    "trans": ["adv. yes"]
+  },
+  {
+    "name": "no",
+    "trans": ["adv. no; not"]
+  },
+  {
+    "name": "buenos días",
+    "trans": ["phrase. good morning"]
+  },
+  {
+    "name": "buenas noches",
+    "trans": ["phrase. good night"]
+  },
+  {
+    "name": "¿cómo estás?",
+    "trans": ["phrase. how are you?"]
+  },
+  {
+    "name": "casa",
+    "trans": ["n. house; home"]
+  },
+  {
+    "name": "coche",
+    "trans": ["n. car; automobile"]
+  },
+  {
+    "name": "libro",
+    "trans": ["n. book"]
+  },
+  {
+    "name": "teléfono",
+    "trans": ["n. phone; telephone"]
+  },
+  {
+    "name": "mesa",
+    "trans": ["n. table"]
+  },
+  {
+    "name": "silla",
+    "trans": ["n. chair"]
+  },
+  {
+    "name": "ventana",
+    "trans": ["n. window"]
+  },
+  {
+    "name": "puerta",
+    "trans": ["n. door"]
+  },
+  {
+    "name": "lámpara",
+    "trans": ["n. lamp"]
+  },
+  {
+    "name": "computadora",
+    "trans": ["n. computer"]
+  }
+]

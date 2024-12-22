@@ -100,7 +100,7 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 #
-*.firebaseServiceAccountKey.json
+*backend/firebaseServiceAccountKey.json
 
 # General backup files
 *.bak
