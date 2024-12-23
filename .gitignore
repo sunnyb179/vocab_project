@@ -100,10 +100,14 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 #
-*backend/firebaseServiceAccountKey.json
+backend/firebaseServiceAccountKey.json
 
 # General backup files
 *.bak
 *.swp
 *.tmp
 *~
+
+#Zhongbo Added those for node)modules
+backend/node_modules/
+frontend/node_modules/
