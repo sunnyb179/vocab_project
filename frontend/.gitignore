@@ -107,3 +107,5 @@ Desktop.ini
 *.swp
 *.tmp
 *~
+
+node_modules

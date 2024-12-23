@@ -1,3 +1,4 @@
+//Requires
 const express = require("express");
 const cors = require("cors");
 const admin = require("firebase-admin");
@@ -18,32 +19,8 @@ app.use(express.json()); // 解析 JSON 数据
 app.use(express.urlencoded({ extended: true })); // 解析表单数据
 
 // 示例路由：测试接口
-app.get("/hello", (req, res) => {
-  res.json({ message: "Hello from the Backend!" });
-});
-
-// 示例路由：添加用户到 Firestore
-app.post("/add-user", async (req, res) => {
-  const { name, email } = req.body;
-  try {
-    const newUser = await db.collection("users").add({ name, email });
-    res
-      .status(200)
-      .json({ id: newUser.id, message: "User added successfully" });
-  } catch (error) {
-    res.status(500).json({ error: error.message });
-  }
-});
-
-// 示例路由：从 Firestore 获取用户
-app.get("/users", async (req, res) => {
-  try {
-    const snapshot = await db.collection("users").get();
-    const users = snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
-    res.status(200).json(users);
-  } catch (error) {
-    res.status(500).json({ error: error.message });
-  }
+app.get("/test", (req, res) => {
+  res.json({ message: "Hello from the Backend!Testing nodemon..." });
 });
 
 // 启动服务器
