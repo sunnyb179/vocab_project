@@ -1,8 +1,11 @@
-const admin = require('firebase-admin');
-const serviceAccount = require('../firebaseServiceAccountKey.json');
+const admin = require("firebase-admin");
+const serviceAccount = require("../firebaseServiceAccountKey.json");
 
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-});
+// 检查是否已经初始化
+if (!admin.apps.length) {
+  admin.initializeApp({
+    credential: admin.credential.cert(serviceAccount),
+  });
+}
 
-module.exports = admin; 
+module.exports = admin; // 导出 admin 实例

@@ -107,5 +107,6 @@ Desktop.ini
 *.swp
 *.tmp
 *~
+firebase.js
 
 node_modules
