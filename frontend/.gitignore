@@ -111,4 +111,4 @@ firebase.js
 
 node_modules
 
-firebase.ts
+src/firebase.ts
